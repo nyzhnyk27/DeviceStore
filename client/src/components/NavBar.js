@@ -27,6 +27,7 @@ const NavBar = observer(() => {
                   <Button 
                       variant={"outline-light"}  
                       onClick={() => navigate(ADMIN_ROUTE)}
+                      className="ml-2" 
                       >
                         Адмін панель</Button>
                   <Button 
